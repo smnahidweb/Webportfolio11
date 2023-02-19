@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+#teacher{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato) ;
+    border-image-slice: 1;
+}
+
+#curriculum{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,tomato) ;
+    border-image-slice: 1;
+}
+.foot{
+    text-align: center;
+}
+.comment{
+    margin-left: 500px;
+    box-shadow: 10px 20x 5px gold;
+}
+.exp{
+    margin-left: 100px;
+}
